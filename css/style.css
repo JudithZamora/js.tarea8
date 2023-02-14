@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(225, 225, 226);
+    margin: 0;
+}
+section{
+    display: inline-block;
+    padding: 4%;
+}
+.fila1{
+   margin-bottom: 1%; 
+}
+#barr1{
+    width: 100%;
+    height: 9px;
+    background-color: rgb(148, 150, 151);
+}
+#barr2{
+    width: 0%;
+    height: 9px;
+    background-color: rgb(244, 11, 11);
+}
+.icon{
+   border: none;
+}
+.tiempo{
+    display: inline-flex;
+}/* barra2 */
+#timer{
+    width: 60px;
+}
+.icon-play{
+    width: 15px;
+    margin: 0 auto;
+}
+.icon-pause{
+    width: 15px;
+    margin: 0 auto;
+}
+.icon-backward{
+    width: 20px;
+    margin: 0 auto;
+}
+.icon-next{
+    width: 20px;
+    margin: 0 auto;
+}
+.icon-volum{
+    width: 20px;
+    margin: 0 auto;
+}
+.icon-enlarge{
+    width: 16px;
+    margin: 0 auto;
+}
+.izquierda{
+    display: grid;
+    grid-template-columns: repeat(5,40px) 110px;
+    grid-column-gap: 25px;
+    align-items: center;
+}
+.derecha{
+    float: right;
+    margin-top: -3.9%;
+}
